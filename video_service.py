@@ -4,7 +4,7 @@ import plotly.express as px
 from googleapiclient.discovery import build
 import os
 
-API_KEY = st.secrets("YOUTUBE_API_KEY")
+API_KEY = st.secrets["YOUTUBE_API_KEY"]
 
 
 def search_videos(query, max_results=10):
