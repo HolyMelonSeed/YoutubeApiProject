@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv("data.env")
-API_KEY = os.getenv("YOUTUBE_API_KEY")
+API_KEY = st.secrets("YOUTUBE_API_KEY")
 
 
 def search_videos(query, max_results=10):
