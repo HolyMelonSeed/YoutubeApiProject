@@ -3,9 +3,7 @@ import pandas as pd
 import plotly.express as px
 from googleapiclient.discovery import build
 import os
-from dotenv import load_dotenv
 
-load_dotenv("data.env")
 API_KEY = st.secrets("YOUTUBE_API_KEY")
 
 
